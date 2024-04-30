@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vote Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Vote</h2>
+    <form action="vote.php" method="post">
+        <label for="vote_id">Vote ID:</label>
+        <input type="text" id="vote_id" name="vote_id" required><br><br>
+        
+        <label for="student_reg">Student Registration:</label>
+        <input type="text" id="student_reg" name="student_reg" required><br><br>
+        
+        <label for="candidate_id">Candidate ID:</label>
+        <input type="text" id="candidate_id" name="candidate_id" required><br><br>
+        
+        <label for="score">Score:</label>
+        <input type="checkbox" id="score" name="score" value="1"><br><br>
+        <button><a href="userhome.php">GO HOME</a></button>
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

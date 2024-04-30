@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Candidate Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Candidate Registration</h2>
+    <form action="candidate.php" method="post">
+        <label for="student_reg">Student Registration:</label>
+        <input type="number" id="student_reg" name="student_reg" required><br><br>
+        
+        <label for="pcode">Position Code:</label>
+        <input type="number" id="pcode" name="pcode" required><br><br>
+        <label for="names">candidates names:</label>
+        <input type="text" id="names" name="names" required><br><br>
+        
+        <input type="submit" value="Submit">
+        <button type="button" onclick="location.href='userhome.php';">Go Back</button>
+    </form>
+</div>
+</body>
+</html>
